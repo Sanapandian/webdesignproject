@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<title>Welcome to VibeNest</title>
+<link href="images/logo.png" rel="icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styleweb.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script.js"></script>
+</head>
+<body>
+<div class="container">
+<header>
+<h4><span style="color:#FBBC53;;">Vibe</span>Nest</h4>
+<form class="form1">
+<label for="srch" style="color:rgb(199, 167, 87);">Search here</label>
+<input type="text"  style="color:whitesmoke;">
+<input type="button" value="search"  style="color:darkgoldenrod;">
+</form>
+</header>
+<div class="c1">
+<img src="images/bg-1.webp"  width="600" height="300">
+<h3 class="firsttext">Welcome to VibeNest – Your Ultimate Music Hub!</h3>
+<h5 id="intro">Step into the world of rhythm and melodies, where every beat tells a story. Whether you're here to discover the latest chart-topping hits, explore indie tracks, or rediscover timeless classics, we've got it all. Our platform is designed for music lovers and creators alike, offering a seamless experience to enjoy, share, and connect through the universal language of sound<span id="dots">...</span><span id="more">.....From curated playlists that suit every mood to exclusive releases from emerging artists, there's always something new to explore. Dive into our vibrant community, where you can follow your favorite artists, get recommendations, and stay updated with the freshest sounds in the industry.</span></h5>
+</h4>
+<input type="button" onclick="myFunction()" value="Read more.." id="myBtn" style="background-color:#C7B7A3;padding:5px;float:right;margin-top:-10%;margin-right:25%;">
+</div>
+<nav>
+<ol>
+<li><a href="home.html">Mainpage</a></li>|
+<li><a href="video.html">Videos</a></li>|
+<li><a href="artist.html">Artists</a></li>|
+<li><a href="album.html">Albums</a></li>|
+<li><a href="contact.html">Contact</a></li>
+</ol>
+</nav>
+<section id="section1">
+<aside>
+<div class="login"><h2 style="font-size:15px;text-align:center;font-weight:bold;color:#C7B7A3;padding:10px;">Customer Login</h2>
+<form class="form2" id="loginForm">
+<label for="em" style="color: snow;">Email</label>
+<input type="email" placeholder="enter an emailid" required id="email" style="color: aliceblue;"><br><br>
+<label for="pwd" style="color: snow;">Password</label>
+<input type="password" placeholder="enter an password" required id="password" style="color: aliceblue;">
+<button type="submit" style="margin-left:60%;margin-top:5%;color:rgb(94, 0, 0);padding:10px;border-radius:12px;"> Login</button>
+<p id="error" class="error-message"></p>
+</form>
+</div>
+<div class="blog"><h2 style="font-size:15px;text-align:center;font-weight:bold;color:#C7B7A3;padding:10px;">Blog Enteries</h2></div>
+<div style="width:115%;" id="con1">
+	<p span class="p1">Navigating the Music Industry </p>
+	<p id="para">The industry is multi-faceted, involving talent discovery, recording, publishing, distribution, marketing, and live performances, among other elements.</p>
+	<p id="para1">Posted by Admin in videos</p>
+	<p id="para1">14 December 2020</p>
+	</div>
+	<div style="width:115%;">
+	<p span class="p1">Exploring famous Indian Singers</p>
+	<p id="para">India has a rich musical heritage, and its singers have made a significant impact both locally and globally. Here's a look at some of the most famous Indian singers across different genres:</p>
+	<p id="para1">Posted by Admin in sources</p>
+	<p id="para1">20 December 2020</p>
+	</div><br><br><br>
+</aside>
+<article id="about">
+<div class="alm1"><h2 style="font-size:15px;font-weight:bold;color:#FBBC53;padding:10px;background-color:black;width:850px;">Latest Albums</h2></div>
+<table >
+<tr>
+<th><img src="images/al1.jpeg"></th>
+<th><img src="images/al2.jpeg"></th>
+<th><img src="images/al3.jpeg"></th>
+</tr>
+<tr>
+<td><span class="p1">Memories</span></td>
+<td><span class="p1">Tracks</span></td>
+<td><span class="p1">Lost in you</span></td>
+</tr>
+<tr>
+<td>Maroon 5</td>
+<td>Velvet Voice</td>
+<td>Rod Stewart</td>
+</tr>
+<tr>
+<td><i class="fa fa-star checked" aria-hidden="true"></i>
+<i class="fa fa-star checked" aria-hidden="true"></i>
+<i class="fa fa-star checked" aria-hidden="true"></i>
+<i class="fa fa-star checked" aria-hidden="true"></i>
+<i class="fa fa-star unchecked" aria-hidden="true"></i></td>
+<td><i class="fa fa-star checked" aria-hidden="true"></i>
+<i class="fa fa-star checked" aria-hidden="true"></i>
+<i class="fa fa-star checked" aria-hidden="true"></i>
+<i class="fa fa-star unchecked" aria-hidden="true"></i>
+<i class="fa fa-star unchecked" aria-hidden="true"></i></td>
+<td><i class="fa fa-star checked" aria-hidden="true"></i>
+<i class="fa fa-star checked" aria-hidden="true"></i>
+<i class="fa fa-star checked" aria-hidden="true"></i>
+<i class="fa fa-star unchecked" aria-hidden="true"></i>
+<i class="fa fa-star unchecked" aria-hidden="true"></i></td>
+</tr>
+</table>
+<div class="alm2"><h2 style="font-size:15px;font-weight:bold;color:#FBBC53;padding:10px;background-color:black;width:350px;">News</h2></div>
+<table  id="tbl1">
+<tr>
+<td><img src="images/nw1.webp" style="width:150px;"></td>
+<td><p style="color:#FBBC53;">Watch 9-Year-Old Belt Out a Tina Turner Classic on ‘America’s Got Talent’</p>
+<p style="color:gray;">14 December 2023</p>
+<p>Pranysqa’s powerful rendition of Tina Turner’s “River Deep, Mountain High” left the judges and audience wildly impressed.</p></td>
+</tr>
+<tr>
+<td><img src="images/nw2.webp" style="width:150px;display:flex;"></td>
+<td><p style="color:#FBBC53;">BTS’ Jin to Serve as South Korea’s Torchbearer at 2024 Paris Olympics</p>
+<p style="color:gray;">24 Febraury 2024</p>
+<p>The BTS superstar will participate in the Paris 2024 Olympic Torch Relay as a torchbearer from South Korea, it was announced on Tuesday (July 2).</p></td>
+</tr>
+<tr>
+
+<div id="dwd"><h2 style="font-size:15px;font-weight:bold;color:#FBBC53;padding:10px;background-color:black;width:400px;">Top Downloads</h2></div>
+<table id="tbl2">
+<tr>
+<td style="border-bottom:1px solid black;">Sometimes I Think About Is You by Glassanimals<a href="./glassanimals.mp3" download><input type="button" value="Download" style="background-color:#C7B7A3;padding:5px;float:right;" ></a></td>
+</tr>
+<tr>
+<td style="border-bottom:1px solid black;">Sweet Caroline by Neil Diamond<a href="./sweetcaroline.mp3" download><input type="button" value="Download" style="background-color:#C7B7A3;padding:5px;float:right;"></a></td>
+</tr>
+<tr>
+<td style="border-bottom:1px solid black;">Beautiful by Christina Aguilera<a href="./beautiful.mp3"><input type="button" value="Download" style="background-color:#C7B7A3;padding:5px;float:right;" ></a></td></tr>
+<tr><td style="border-bottom:1px solid black;">Dancing in the stars by Leroy Sanchez<a href="./dancing.mp3"> <input type="button" value="Download" style="background-color:#C7B7A3;padding:5px;float:right;"></a></td></tr>
+<tr><td style="border-bottom:1px solid black;">Dreamy Dusk by Jennifer Taylor<a href="./dd.mp3"><input type="button" value="Download" style="background-color:#C7B7A3;padding:5px;float:right;"></a></td></tr>
+<tr><td style="border-bottom:1px solid black;">First Light by Sonal Purohit<a href="./flight.mp3"><input type="button" value="Download" style="background-color:#C7B7A3;padding:5px;float:right;"></a></td></tr>
+</table>
+</article>
+</section>
+<footer>
+<ol>
+<li>Mainpage</li>|
+<li>Videos</li>|
+<li>Artists</li>|
+<li>Albums</li>|
+<li>Contact</li>
+</ol>
+<p>&copy; 2024 VibeNest Music Store. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,316 @@
+.container{
+    width:100%;
+    height:auto;
+    border:1px solid black;
+    margin:0;
+    background-color:#350007;
+}
+a{
+    text-decoration: none;
+    color: snow;
+}
+a:hover{
+    color: #350007;
+}
+button:hover {
+    background-color: burlywood;
+}
+#con1{
+    text-align: justify;
+   
+}
+.error-message {
+    color: red;
+    font-size: 0.9em;
+}
+#para
+{
+    color: rgb(255, 234, 163);
+    width: 60%;
+} 
+#para1{
+    color: aliceblue;
+}   h4{
+    font-size:30px;
+    color:white;}
+    input{
+    padding:7px;
+    border:2px solid white;
+    background-color:rgba(0,0,0,0);
+    }
+    .form1{
+    margin-top:-7%;
+    margin-right:5%;
+    float:right;
+    }
+    .c1{
+    width:96%;
+    height:auto;
+    
+    
+    }
+  .firsttext{
+    color:#FBBC53;
+   margin-left: -3%;
+    float:right;
+    margin-right: 5%; 
+  }
+    
+    #intro{
+    float:right;
+    color:white;
+    width:42%;
+    margin-top:-21%;
+    margin-right: 2%;
+    justify-content: space-evenly;
+    
+    }
+    nav{
+    width:100%;
+    height:50px;
+    border:1px solid white;
+    border-left:1px solid white;
+    background-color:#74512D;
+    text-decoration: none;
+    }
+    nav ol li{
+    display:inline-block;
+    width:200px;
+    padding:5px 5px 5px 5px;
+    text-align:center;
+    color:white;
+    text-decoration: none;
+
+    }
+    #section1{
+    display:flex;
+    height:880px;
+    
+    
+    }
+    .login{
+        width:190px;
+        height:40px;
+        background-color:gray;
+    }
+    .form2{
+        margin-left:5%;
+    }
+    .blog{
+        width:190px;
+        height:40px;
+        background-color:gray;
+        margin-top:110%;
+    }
+    .p1{
+        color:#FBBC53;
+    }
+    aside{
+        height:480px;
+    }
+    #about{
+        width:89%;
+        height:780px;
+        margin-left:10%;
+        
+    }	
+    table{
+        width:100%;
+    }
+    .checked{
+    color:#FBBC53;}
+    .unchecked{
+        color:white;
+    }
+    #tbl1{
+        width:50%;
+    }
+    #dwd{
+        width:50%;
+        float:right;
+        margin-top:-7%;
+        height:auto;
+    }
+    #tbl2{
+        margin-top:-45%;
+        width:48%;
+        margin-left:51%;
+        background-color:#74512D;
+    }
+    footer{
+        width: 100%;
+      height: 110px;
+      background-color: #74512D;
+      text-align: center;
+    }
+    footer ol li {
+      display: inline-block;
+      margin: 30px 8px 20px 8px;
+    }
+    #section2{
+        height: auto;
+        width: 100%;
+        
+    }
+    .videogrid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5em;
+        margin-top: 5%;
+        padding: 10px 10px 10px 10px;
+         
+    }
+    .video-card {
+        background-color:wheat;
+        padding: 1em;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+
+    }
+    .video-card img {
+        width: 30%;
+        border-radius: 5px;
+        height: 40%;
+        padding: 5px 5px;
+        text-align: center;
+        
+    }
+    .video-card h3 {
+        margin-top: 0.5em;
+        font-size: 1.2em;
+    }
+    #section3{
+        width: 100%;
+        height: auto;
+        background-color:#350007;
+    }
+    .audiogrid{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto ;
+        gap: 1.5em;
+        margin-top: 5%;
+        padding: 10px 10px 10px 10px;    
+    }
+    .audio-card {
+        background-color:rgba(0, 13, 161, 0.037);
+        padding: 1em;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+    .audio-card img {
+     width: auto;         /* Allow width to be determined by the aspect ratio */
+    height: 150px;      /* Set a fixed height */
+    max-width: 100%;    /* Ensure it doesn't exceed the card's width */
+    object-fit: cover;   /* Maintain aspect ratio while covering the entire area */
+    border-radius: 120px;
+    }
+    
+    .audio-card img:hover {
+        transform: scale(1.05); 
+    }
+    .audio-card h3{
+        color: azure;
+        text-align:start;
+    }
+   #section4{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(7, 4, 38);
+   }
+   .info{
+    width: 80%;
+    height: 60%;
+    border: 2px solid white;
+    background-color: #74512D;
+    
+   }
+   #album-section {
+    padding: 20px;
+    text-align: center;
+}
+
+#album-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.album-slider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.album-slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.album-card {
+    min-width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.album-card img {
+    width: 50%;
+    height: 60%;
+    border-radius: 10px;
+}
+/* Slider Controls */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 2em;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .album-card {
+        min-width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .album-card {
+        min-width: 100%;
+    }
+}
+.name{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkorange;
+}
+.name2{
+    font-size:x-small;
+    font-family: 'Trebuchet MS';
+    color:beige;
+}
+.name3{
+    font-size:x-small;
+    font-family: 'fantasy';
+    color: moccasin;
+}
+.album-card img:hover{
+    transform: scale(1.05); 
+   
+}
